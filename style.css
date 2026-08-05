@@ -169,7 +169,19 @@ nav a:hover {
 
 .contact button:hover {
     background: #4b0082;
-    
+}
+
+
+details {
+  background: #f5f5f5;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
 }
 /* FAQ Section */
 .faq {
@@ -400,3 +412,63 @@ button {
 button:hover {
   transform: scale(1.05);
 }
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 50px 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+#testimonials {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.review {
+  background: #f5f5f5;
+  padding: 20px;
+  margin: 15px auto;
+  border-radius: 10px;
+  max-width: 500px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 50%;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+}
+
+#topBtn:hover {
+  background-color: #0056b3;
+      }
