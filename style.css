@@ -170,32 +170,8 @@ nav a:hover {
 .contact button:hover {
     background: #4b0082;
 }
-.faq {
+#faq {
   padding: 40px 20px;
-  background: #f4f4f4;
-}
-
-.faq h2 {
-  text-align: center;
-  color: #003366;
-  margin-bottom: 20px;
-}
-
-.faq-item {
-  background: white;
-  margin: 15px auto;
-  padding: 15px;
-  border-radius: 10px;
-  max-width: 700px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-}
-
-.faq-item h3 {
-  color: #0077cc;
-}
-
-.faq-item p {
-  color: #333;
 }
 .admission {
   padding: 40px 20px;
